@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-06 03:39-0500\n"
-"PO-Revision-Date: 2016-02-04 17:59+0700\n"
+"PO-Revision-Date: 2016-02-04 18:11+0700\n"
 "Last-Translator: Usman Khalid\n"
 "Language-Team: Indonesian (http://www.transifex.com/projects/p/edx-platform/"
 "language/id/)\n"
@@ -885,7 +885,7 @@ msgstr "Skor Tanggapan"
 
 #: openassessment/templates/openassessmentblock/edit/oa_training_example.html:30
 msgid "Response"
-msgstr "Balasan"
+msgstr "Tanggapan"
 
 #: openassessment/templates/openassessmentblock/edit/oa_training_example_criterion.html:10
 msgid "Not Selected"
@@ -1028,7 +1028,7 @@ msgstr "Rekan"
 
 #: openassessment/templates/openassessmentblock/grade/oa_grade_complete.html:201
 msgid "Additional comments on your response"
-msgstr "Komentar tambahan  pada balasan Anda"
+msgstr "Komentar tambahan pada tanggapan Anda"
 
 #: openassessment/templates/openassessmentblock/grade/oa_grade_complete.html:211
 msgid "Peer assessor"
@@ -1337,7 +1337,7 @@ msgstr "Penilaian Sesama"
 #: openassessment/templates/openassessmentblock/self/oa_self_assessment.html:16
 #, python-format
 msgid "available <span class=\"date\">%(start_date)s (in %(time_until)s)</span>"
-msgstr ""
+msgstr "tersedia <span class=\"date\">%(start_date)s (in %(time_until)s)</span>"
 
 #. Translators: This string displays a date to the user, then tells them the
 #. time until that date.  Example: "due August 13th, 2014 (in 5 days and 45
@@ -1345,7 +1345,7 @@ msgstr ""
 #: openassessment/templates/openassessmentblock/peer/oa_peer_assessment.html:25
 #, python-format
 msgid "due <span class=\"date\">%(due_date)s (in %(time_until)s)</span>"
-msgstr ""
+msgstr "batas <span class=\"date\">%(due_date)s (in %(time_until)s)</span>"
 
 #: openassessment/templates/openassessmentblock/peer/oa_peer_assessment.html:33
 #: openassessment/templates/openassessmentblock/peer/oa_peer_cancelled.html:12
@@ -1511,6 +1511,10 @@ msgid ""
 "completed all the steps for this problem and your peers have assessed your "
 "response."
 msgstr ""
+"Semua tanggapan rekan disampaikan telah dinilai. Periksa kembali nanti untuk "
+"melihat apakah lebih banyak siswa telah mengirimkan tanggapan. Anda akan "
+"menerima nilai Anda setelah Anda menyelesaikan semua langkah untuk masalah ini "
+"dan rekan-rekan Anda telah dinilai tanggapan Anda."
 
 #. Translators: This string displays a date to the user, then tells them the
 #. time until that date.  Example: "due August 13th, 2014 (in 5 days and 45
@@ -1518,7 +1522,7 @@ msgstr ""
 #: openassessment/templates/openassessmentblock/response/oa_response.html:21
 #, python-format
 msgid "due <span class=\"date\"> %(due_date)s (in %(time_until)s)</span>"
-msgstr ""
+msgstr "batas <span class=\"date\"> %(due_date)s (in %(time_until)s)</span>"
 
 #: openassessment/templates/openassessmentblock/response/oa_response.html:31
 #: openassessment/templates/openassessmentblock/self/oa_self_assessment.html:31
@@ -1567,7 +1571,7 @@ msgstr ""
 
 #: openassessment/templates/openassessmentblock/response/oa_response.html:85
 msgid "Upload your image"
-msgstr ""
+msgstr "Unggah gambar Anda"
 
 #: openassessment/templates/openassessmentblock/response/oa_response.html:100
 msgid "You may continue to work on your response until you submit it."
@@ -1682,7 +1686,7 @@ msgstr ""
 
 #: openassessment/templates/openassessmentblock/self/oa_self_assessment.html:12
 msgid "Assess Your Response"
-msgstr "Akses Balasan Anda"
+msgstr "Menilai Tanggapan Anda"
 
 #. Translators: This string displays a date to the user, then tells them the
 #. time until that date.  Example: "due August 13th, 2014 (in 5 days and 45
@@ -1804,7 +1808,7 @@ msgstr "Informasi Siswa"
 
 #: openassessment/templates/openassessmentblock/staff_debug/student_info.html:12
 msgid "Student Response"
-msgstr "Balasan Siswa"
+msgstr "Tanggapan Siswa"
 
 #: openassessment/templates/openassessmentblock/staff_debug/student_info.html:15
 #, python-format
