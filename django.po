@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-06 03:39-0500\n"
-"PO-Revision-Date: 2016-02-04 17:25+0700\n"
+"PO-Revision-Date: 2016-02-04 17:38+0700\n"
 "Last-Translator: Usman Khalid\n"
 "Language-Team: Indonesian (http://www.transifex.com/projects/p/edx-platform/"
 "language/id/)\n"
@@ -57,46 +57,46 @@ msgstr "Umpan balik disimpan"
 #: build/lib.linux-x86_64-2.7/openassessment/xblock/peer_assessment_mixin.py:54
 #: openassessment/xblock/peer_assessment_mixin.py:54
 msgid "Must provide options selected in the assessment"
-msgstr ""
+msgstr "Harus memberikan opsi yang dipilih dalam penilaian"
 
 #: build/lib.linux-x86_64-2.7/openassessment/xblock/peer_assessment_mixin.py:57
 #: build/lib.linux-x86_64-2.7/openassessment/xblock/self_assessment_mixin.py:121
 #: openassessment/xblock/peer_assessment_mixin.py:57
 #: openassessment/xblock/self_assessment_mixin.py:121
 msgid "Must provide overall feedback in the assessment"
-msgstr ""
+msgstr "Harus memberikan umpan balik secara keseluruhan dalam penilaian"
 
 #: build/lib.linux-x86_64-2.7/openassessment/xblock/peer_assessment_mixin.py:60
 #: build/lib.linux-x86_64-2.7/openassessment/xblock/self_assessment_mixin.py:124
 #: openassessment/xblock/peer_assessment_mixin.py:60
 #: openassessment/xblock/self_assessment_mixin.py:124
 msgid "Must provide feedback for criteria in the assessment"
-msgstr ""
+msgstr "Harus memberikan umpan balik untuk kriteria dalam penilaian"
 
 #: build/lib.linux-x86_64-2.7/openassessment/xblock/peer_assessment_mixin.py:63
 #: openassessment/xblock/peer_assessment_mixin.py:63
 msgid "You must submit a response before you can peer-assess."
-msgstr ""
+msgstr "Anda harus mengirimkan respon sebelum Anda bisa mengintip-menilai."
 
 #: build/lib.linux-x86_64-2.7/openassessment/xblock/peer_assessment_mixin.py:76
 #: openassessment/xblock/peer_assessment_mixin.py:76
 msgid ""
 "This feedback has already been submitted or the submission has been cancelled."
-msgstr ""
+msgstr "Umpan balik ini telah diajukan atau penyerahan telah dibatalkan."
 
 #: build/lib.linux-x86_64-2.7/openassessment/xblock/peer_assessment_mixin.py:101
 #: build/lib.linux-x86_64-2.7/openassessment/xblock/peer_assessment_mixin.py:106
 #: openassessment/xblock/peer_assessment_mixin.py:101
 #: openassessment/xblock/peer_assessment_mixin.py:106
 msgid "Your peer assessment could not be submitted."
-msgstr ""
+msgstr "penilaian sejawat Anda tidak dapat diajukan."
 
 #: build/lib.linux-x86_64-2.7/openassessment/xblock/peer_assessment_mixin.py:120
 #: build/lib.linux-x86_64-2.7/openassessment/xblock/student_training_mixin.py:210
 #: openassessment/xblock/peer_assessment_mixin.py:120
 #: openassessment/xblock/student_training_mixin.py:210
 msgid "Could not update workflow status."
-msgstr ""
+msgstr "tidak bisa update status alur kerja."
 
 #: build/lib.linux-x86_64-2.7/openassessment/xblock/peer_assessment_mixin.py:129
 #: openassessment/xblock/peer_assessment_mixin.py:129
@@ -1690,7 +1690,7 @@ msgstr "Akses Balasan Anda"
 #: openassessment/templates/openassessmentblock/student_training/student_training.html:21
 #, python-format
 msgid "due <span class=\"date\">%(due_date)s</span> (in %(time_until)s)"
-msgstr ""
+msgstr "batas <span class=\"date\">%(due_date)s</span> (in %(time_until)s)"
 
 #: openassessment/templates/openassessmentblock/self/oa_self_assessment.html:75
 msgid "Submit Your Assessment"
@@ -1701,6 +1701,9 @@ msgid ""
 "This step is now closed. You can no longer complete a self assessment or "
 "continue with this assignment, and you'll receive a grade of Incomplete."
 msgstr ""
+"Langkah ini sekarang ditutup. Anda tidak lagi dapat menyelesaikan self "
+"assessment atau melanjutkan tugas ini, dan Anda akan menerima nilai yang tidak "
+"lengkap."
 
 #: openassessment/templates/openassessmentblock/staff_debug/staff_debug.html:7
 msgid "Course Staff Information"
@@ -1725,11 +1728,11 @@ msgstr "Kemajuan Siswa"
 #: openassessment/templates/openassessmentblock/staff_debug/staff_debug.html:30
 #: openassessment/templates/openassessmentblock/staff_debug/staff_debug.html:53
 msgid "Problem Step"
-msgstr ""
+msgstr "Soal Langkah"
 
 #: openassessment/templates/openassessmentblock/staff_debug/staff_debug.html:31
 msgid "Active Students in Step"
-msgstr ""
+msgstr "Siswa aktif dalam Langkah"
 
 #: openassessment/templates/openassessmentblock/staff_debug/staff_debug.html:47
 #: openassessment/templates/openassessmentblock/staff_debug/staff_debug.html:49
@@ -1748,7 +1751,7 @@ msgstr "N/A"
 #: openassessment/templates/openassessmentblock/staff_debug/staff_debug.html:84
 #: openassessment/templates/openassessmentblock/staff_debug/staff_debug.html:85
 msgid "Classifier set"
-msgstr ""
+msgstr "classifier set"
 
 #: openassessment/templates/openassessmentblock/staff_debug/staff_debug.html:87
 msgid "Field"
@@ -1866,7 +1869,7 @@ msgstr "Umpan balik"
 #: openassessment/templates/openassessmentblock/staff_debug/student_info.html:185
 #: openassessment/templates/openassessmentblock/staff_debug/student_info.html:216
 msgid "Points Possible"
-msgstr ""
+msgstr "Kemungkinan Poin"
 
 #: openassessment/templates/openassessmentblock/staff_debug/student_info.html:125
 #: openassessment/templates/openassessmentblock/staff_debug/student_info.html:167
@@ -1879,19 +1882,19 @@ msgstr ""
 
 #: openassessment/templates/openassessmentblock/staff_debug/student_info.html:178
 msgid "Student's Self Assessment"
-msgstr ""
+msgstr "Siswa Penilaian Sendiri"
 
 #: openassessment/templates/openassessmentblock/staff_debug/student_info.html:210
 msgid "Example Based Assessment"
-msgstr ""
+msgstr "Penilaian Berdasarkan contoh"
 
 #: openassessment/templates/openassessmentblock/staff_debug/student_info.html:239
 msgid "Couldn't find a response for this student."
-msgstr ""
+msgstr "Tidak dapat menemukan tanggapan bagi siswa ini."
 
 #: openassessment/templates/openassessmentblock/student_training/student_training.html:12
 msgid "Learn to Assess Responses"
-msgstr ""
+msgstr "Belajar menilai Tanggapan"
 
 #. Translators: This string displays a date to the user, then tells them the
 #. time until that date.  Example: "available August 13th, 2014 (in 5 days and
@@ -1904,7 +1907,7 @@ msgstr ""
 #: openassessment/templates/openassessmentblock/student_training/student_training.html:46
 #: openassessment/templates/openassessmentblock/student_training/student_training.html:54
 msgid "Learning to Assess Responses"
-msgstr ""
+msgstr "Belajar menilai Tanggapan"
 
 #: openassessment/templates/openassessmentblock/student_training/student_training.html:49
 msgid ""
@@ -1914,6 +1917,12 @@ msgid ""
 "you'll move to the next step. If you don't select the same options, you'll "
 "review the response and try again."
 msgstr ""
+"Sebelum Anda mulai untuk menilai tanggapan rekan-rekan Anda ', Anda akan "
+"belajar bagaimana untuk menyelesaikan penilaian sebaya dengan meninjau "
+"tanggapan yang telah dinilai oleh instruktur. Jika Anda memilih pilihan yang "
+"sama untuk tanggapan yang dipilih instruktur, Anda akan pindah ke langkah "
+"berikutnya. Jika Anda tidak memilih opsi yang sama, Anda akan meninjau respon "
+"dan coba lagi."
 
 #: openassessment/templates/openassessmentblock/student_training/student_training.html:57
 msgid ""
@@ -1933,37 +1942,39 @@ msgstr ""
 
 #: openassessment/templates/openassessmentblock/student_training/student_training.html:95
 msgid "Selected Options Agree"
-msgstr ""
+msgstr "Pilihan yang dipilih Setuju"
 
 #: openassessment/templates/openassessmentblock/student_training/student_training.html:98
 msgid "The option you selected is the option that the instructor selected."
-msgstr ""
+msgstr "Pilihan yang Anda pilih adalah pilihan yang dipilih instruktur."
 
 #: openassessment/templates/openassessmentblock/student_training/student_training.html:102
 msgid "Selected Options Differ"
-msgstr ""
+msgstr "Pilihan yang dipilih Berbeda"
 
 #: openassessment/templates/openassessmentblock/student_training/student_training.html:105
 msgid "The option you selected is not the option that the instructor selected."
-msgstr ""
+msgstr "Pilihan yang Anda pilih bukan pilihan yang dipilih instruktur."
 
 #: openassessment/templates/openassessmentblock/student_training/student_training.html:138
 msgid "We could not check your assessment"
-msgstr ""
+msgstr "Kita tidak bisa memeriksa penilaian Anda"
 
 #: openassessment/templates/openassessmentblock/student_training/student_training.html:145
 msgid "Compare your selections with the instructor's selections"
-msgstr ""
+msgstr "Bandingkan pilihan Anda dengan pilihan instruktur"
 
 #: openassessment/templates/openassessmentblock/student_training/student_training_closed.html:25
 msgid ""
 "This step is now closed.You can no longer continue with this assignment, and "
 "you'll receive a grade of Incomplete."
 msgstr ""
+"Langkah ini sekarang ditutup. Anda tidak bisa lagi melanjutkan tugas ini, dan "
+"Anda akan menerima nilai yang tidak lengkap."
 
 #: openassessment/templates/openassessmentblock/student_training/student_training_error.html:9
 msgid "Error Loading Student Training Examples"
-msgstr ""
+msgstr "Error Memuat Contoh Pelatihan Siswa"
 
 #: openassessment/templates/openassessmentblock/student_training/student_training_error.html:12
 msgid "We couldn't load the student training step of this assignment."
