@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-06 03:39-0500\n"
-"PO-Revision-Date: 2016-02-04 23:53+0700\n"
+"PO-Revision-Date: 2016-02-04 23:54+0700\n"
 "Last-Translator: Usman Khalid\n"
 "Language-Team: Indonesian (http://www.transifex.com/projects/p/edx-platform/"
 "language/id/)\n"
@@ -1185,7 +1185,7 @@ msgstr ""
 
 #: openassessment/templates/openassessmentblock/grade/oa_grade_complete.html:318
 msgid "I feel the feedback I received was..."
-msgstr "Aku merasakan umpan balik yang saya terima adalah ..."
+msgstr "Aku merasakan umpan balik yang saya terima adalah..."
 
 #: openassessment/templates/openassessmentblock/grade/oa_grade_complete.html:329
 msgid "We could not submit your feedback"
