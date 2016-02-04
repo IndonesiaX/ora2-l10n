@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-03-06 03:39-0500\n"
-"PO-Revision-Date: 2016-02-04 17:49+0700\n"
+"PO-Revision-Date: 2016-02-04 17:59+0700\n"
 "Last-Translator: Usman Khalid\n"
 "Language-Team: Indonesian (http://www.transifex.com/projects/p/edx-platform/"
 "language/id/)\n"
@@ -280,6 +280,7 @@ msgstr ""
 #: openassessment/xblock/submission_mixin.py:77
 msgid "To submit a response, view this component in Preview or Live mode."
 msgstr ""
+"Untuk mengirimkan tanggapan, melihat komponen ini di Preview atau mode Live."
 
 #: build/lib.linux-x86_64-2.7/openassessment/xblock/submission_mixin.py:72
 #: openassessment/xblock/submission_mixin.py:83
@@ -294,7 +295,7 @@ msgstr ""
 #: build/lib.linux-x86_64-2.7/openassessment/xblock/submission_mixin.py:146
 #: openassessment/xblock/submission_mixin.py:163
 msgid "This response could not be saved."
-msgstr ""
+msgstr "Tanggapan ini tidak bisa disimpan."
 
 #: build/lib.linux-x86_64-2.7/openassessment/xblock/submission_mixin.py:150
 #: openassessment/xblock/submission_mixin.py:167
@@ -329,7 +330,7 @@ msgstr "Tanggapan ini belum disimpan"
 #: build/lib.linux-x86_64-2.7/openassessment/xblock/validation.py:108
 #: openassessment/xblock/validation.py:108
 msgid "This problem must include at least one assessment."
-msgstr ""
+msgstr "Masalah ini harus menyertakan setidaknya satu penilaian."
 
 #: build/lib.linux-x86_64-2.7/openassessment/xblock/validation.py:112
 #: openassessment/xblock/validation.py:112
@@ -475,7 +476,8 @@ msgid ""
 "to the question. The other steps appear below the Your Response field."
 msgstr ""
 "Tugas ini memiliki beberapa langkah. Pada langkah pertama, Anda akan memberikan "
-"tanggapan terhadap pertanyaan. Langkah lainnya muncul di bawah Tanggapan Anda."
+"tanggapan terhadap pertanyaan. Langkah-langkah lain muncul di bawah Tanggapan "
+"Anda."
 
 #: openassessment/templates/openassessmentblock/oa_base.html:31
 msgid "This step's status:"
@@ -1325,7 +1327,7 @@ msgstr ""
 
 #: openassessment/templates/openassessmentblock/peer/oa_peer_assessment.html:16
 msgid "Assess Peers"
-msgstr ""
+msgstr "Penilaian Sesama"
 
 #. Translators: This string displays a date to the user, then tells them the
 #. time until that date.  Example: "available August 13th, 2014 (in 5 days and
